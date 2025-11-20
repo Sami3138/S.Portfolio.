@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CV - Muhammad Samran</title>
+    <link rel="stylesheet" href="cv.css">
+</head>
+<body>
+    <div class="cv-sheet">
+        <div class="cv-header">
+            <div class="cv-identity">
+                <h1>Muhammad Samran</h1>
+                <p class="role">Web Developer</p>
+            </div>
+            <div class="cv-contacts">
+                <span>📧 msamranmsamran673@gmail.com</span><br>
+                <span>📍 Chishtian, Bhawalnagar, Punjab, Pakistan</span><br>
+            </div>
+        </div>
+
+        <section class="cv-section">
+            <h3 class="cv-title">About Me</h3>
+            <p class="cv-summary">I am a Dedicated Web Developer specializing in building responsive, user-focused websites and web apps. Passionate about clean UI, performance, and creating real-world solutions through modern web technologies.</p>
+        </section>
+
+        <section class="cv-section">
+            <h3 class="cv-title">Skills</h3>
+            <div class="pills">
+                <span class="pill">HTML5</span>
+                <span class="pill">CSS3</span>
+                <span class="pill">JavaScript</span>
+                <span class="pill">Responsive Design</span>
+                <span class="pill">WordPress</span>
+                <span class="pill">Shopify</span>
+                <span class="pill">UI/UX Basics</span>
+                <span class="pill">Git & GitHub</span>
+                <span class="pill">Leads Generation</span>
+            </div>
+        </section>
+
+        <section class="cv-section">
+            <h3 class="cv-title">Education</h3>
+            <div class="cv-list">
+                <div class="cv-item">
+                    <h4>Riphah International College/University Chishtian</h4>
+                    <div class="when">2023 - 2025</div>
+                </div>
+                <div class="cv-summary">Pursuing higher education</div>
+                <div class="cv-item">
+                    <h4>Govt Post Graduate College Chishtian</h4>
+                    <div class="when">2021 - 2023</div>
+                </div>
+                <div class="cv-summary">Intermediate</div>
+                <div class="cv-item">
+                    <h4>Govt High School Mahar Sharif</h4>
+                    <div class="when">2019 - 2021</div>
+                </div>
+                <div class="cv-summary">Matriculation</div>
+            </div>
+        </section>
+
+        <section class="cv-section">
+            <h3 class="cv-title">Experience</h3>
+            <div class="cv-list">
+                <div class="cv-item">
+                    <h4>Web Developer</h4>
+                    <div class="when">2022 - 2025</div>
+                </div>
+                <div class="cv-summary">Hands-on experience via internships, projects, and volunteer work. Focused on building responsive sites, customizing WordPress/Shopify, and collaborating on real-world tasks.</div>
+            </div>
+        </section>
+
+        <section class="cv-section">
+            <h3 class="cv-title">Projects</h3>
+            <div class="cv-list">
+                <div><strong>Responsive Portfolio</strong> — Modern personal portfolio with animations and dark gradient theme.</div>
+                <div><strong>WordPress Customizations</strong> — Themes and plugins tailored to client requirements.</div>
+                <div><strong>Shopify Store Setup</strong> — E-commerce configurations and UI tweaks for conversions.</div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // Auto-trigger print when opened with ?print
+        const params = new URLSearchParams(location.search);
+        if (params.get('print') === '1') {
+            window.addEventListener('load', () => window.print());
+        }
+    </script>
+</body>
+</html>
